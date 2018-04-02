@@ -23,13 +23,24 @@ int main(void)
 		{
 			printf("You automatically rely on running out of the room. The room is locked out and there is no other exit besides the 
 				cave that the bear came out of. Since you're panick attack has gotten worse, you make poor judgments and gets 
-				beaten to death by the bear. Now you have lost your legacy!);
+				beaten to death by the bear. Now you have lost your legacy!");
 		}
+		else if(userinput ==2)
+		{
+			printf("You decide to make friends with the bear. It turns out that the bear does not speak English, therefore, you instantly get eaten by the bear!");
+	
+		}
+		else if(userinput==3)
+		{
+			printf("You decide to use the stone rod that is laying on the floor. You end up getting bruised, although you emerge victorious after beating the bear to death and you feel accomplished!");
+		}
+	}
 
-		
-
-
-
-
-
+	return EXIT_SUCCESS;
 }
+
+
+
+
+
+
